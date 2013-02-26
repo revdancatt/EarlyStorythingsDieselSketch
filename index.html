@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Image test</title>
+    <link href="css/main.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Squada+One' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+
+    <div class="stage">
+    </div>
+
+    <div class="filmstrip filmstripSource">
+    </div>
+
+    <div class="loadingimage">
+    </div>
+
+    <div class="spot spot1">
+        Glitch
+    </div>
+
+    <div class="spot spot2">
+        Glitch
+    </div>
+
+
+    <div class="progress">
+      <div class="bar">
+      </div>
+      <div class="loading">
+      </div>
+      <div class="debug">
+      </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script> 
+    <script src="js/engine.js?v=0.1"></script>
+    <script>
+        $(document).ready(function() {
+            control.init();
+        });
+    </script>
+  </body>
+</html>
